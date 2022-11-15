@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY_PORTFOLIO</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- js -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="header_inner">
+            <h1><a href="#">로고</a></h1>
+            <a href="#" class="btn_menu">
+                <span>메뉴</span>
+            </a>
+        </div>
+        <div class="full_menu">
+            <div class="full_menu_inner">
+                <button type="button" class="btn_close">닫기</button>
+                <ul class="full_gnb">
+                    <li><a href="#main">MAIN</a></li>
+                    <li><a href="#aboutme">ABOUT ME</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="fullpage">
+        <!-- <ul id="right_nav">
+            <li data-menuanchor="main"><a href="#main"><span>MAIN</span></a></li>
+            <li data-menuanchor="aboutme"><a href="#aboutme"><span>ABOUT ME</span></a></li>
+            <li data-menuanchor="portfolio"><a href="#portfolio"><span>PORTFOLIO</span></a></li>
+            <li data-menuanchor="contact"><a href="#contact"><span>CONTACT</span></a></li>
+        </ul> -->
+        <div class="section main">
+            <div class="title">
+                <div class="box"></div>
+                <h2>PORTFOLIO</h2>
+                <h3>
+                    UI/UX Web Designer<br>
+                    Web Publisher
+                </h3>
+                <h4>Roh Ah Yeon</h4>
+            </div>
+        </div>
+        <div class="section aboutme">
+            <h2>ABOUT ME</h2>
+            <p>
+                실패를 두려워 하지 않고 나아가 원하는 목표를 이루는 “<span class="color">노 아 연</span>” 이 되겠습니다.
+            </p>
+            <div class="aboutme_box">
+                <div class="about_left">
+                    <div class="about_left_top">
+                        <div class="about_tit">
+                            <span>WHO AM I</span>
+                        </div>
+                        <div class="top_box">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>NAME</td>
+                                        <td>노아연</td>
+                                    </tr>
+                                    <tr>
+                                        <td>AGE</td>
+                                        <td>1992. 09. 18 / 31세</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PHONE NUMBER</td>
+                                        <td>010 · 2495 · 1820</td>
+                                    </tr>
+                                    <tr>
+                                        <td>E-MAIL</td>
+                                        <td>zn_nov@naver.com</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="about_left_bottom">
+                        <div class="about_tit">
+                            <span>LICENSE</span>
+                        </div>
+                        <div class="bottom_box">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>GTQ포토샵 1급</td>
+                                        <td>2022. 07 / 한국생산성본부</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2종 보통 운전면허</td>
+                                        <td>2022. 08 / 경찰청(운전면허시험관리단)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="about_middle">
+                    <div class="about_tit">
+                        <span>ADVANTAGE</span>
+                    </div>
+                    <div class="about_middle_box">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><img src="img/diversity.png" alt="협력이모티콘"></td>
+                                    <td>
+                                        타인의 관점과 가치를 존중하며<br> 
+                                        지속적으로 소통하겠습니다. 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/thumb-up.png" alt="최선이모티콘"></td>
+                                    <td>
+                                        주어진 일은 최선을 다해<br>
+                                        끝까지 해냅니다. 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/list.png" alt="개선이모티콘"></td>
+                                    <td>
+                                        부족한 부분을 개선하기 위해<br> 
+                                        노력합니다.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="about_right">
+                    <div class="about_tit">
+                        <span>SKILL</span>
+                    </div>
+                    <div class="skill">
+                        <div class="program">
+                            <p>
+                                <span>HTML5</span>
+                                <span>90%</span>
+                            </p>
+                            <div class="prog_box">
+                                <div class="prog_level lv1" style="width:90%"></div>
+                            </div>
+                        </div>
+                        <div class="program">
+                            <p>
+                                <span>CSS3</span>
+                                <span>80%</span>
+                            </p>
+                            <div class="prog_box">
+                                <div class="prog_level lv2" style="width:80%"></div>
+                            </div>
+                        </div>
+                        <div class="program">
+                            <p>
+                                <span>JavaScript</span>
+                                <span>70%</span>
+                            </p>
+                            <div class="prog_box">
+                                <div class="prog_level lv3" style="width:60%"></div>
+                            </div>
+                        </div>
+                        <div class="program">
+                            <p>
+                                <span>jQuery</span>
+                                <span>70%</span>
+                            </p>
+                            <div class="prog_box">
+                                <div class="prog_level lv4" style="width:60%"></div>
+                            </div>
+                        </div>
+                        <div class="program">
+                            <p>
+                                <span>Photoshop</span>
+                                <span>90%</span>
+                            </p>
+                            <div class="prog_box">
+                                <div class="prog_level lv5" style="width:90%"></div>
+                            </div>
+                        </div>
+                        <div class="program">
+                            <p>
+                                <span>Illustrator</span>
+                                <span>80%</span>
+                            </p>
+                            <div class="prog_box">
+                                <div class="prog_level lv6" style="width:80%"></div>
+                            </div>
+                        </div>
+                        <div class="program">
+                            <p>
+                                <span>Figma</span>
+                                <span>90%</span>
+                            </p>
+                            <div class="prog_box">
+                                <div class="prog_level lv7" style="width:90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section slide portfolio">
+            <div class="web">
+                <h2 class="portfolio_tit">PORTFOLIO</h2>
+                <p class="portfolio_subtxt">Web Site</p>
+                <ul class="gallery">
+                    <li>
+                        <img src="img/삼양식품_mockup.jpg" alt="삼양이미지">
+                        <img src="img/삼양식품_logo.png" alt="삼양로고">
+                        <div class="portfolio_hover">
+                            <div class="hover_txt">
+                                <h5>삼양식품</h5>
+                                <p class="hover_p">
+                                    Main 페이지 구현<br>
+                                    Slick Slide<br>
+                                    삼양제품소개 - Tab 구현<br>
+                                </p>
+                                <p class="hover_p">기존 삼양식품 페이지 클론 코딩</p>
+                                <p class="btn_view_wrap">
+                                    <a href="../11_samyang/index.html" class="btn_view" target="_blank">View</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/포메인_mockup.jpg" alt="포메인이미지">
+                        <img src="img/포메인_logo.png" alt="포메인로고">
+                        <div class="portfolio_hover">
+                            <div class="hover_txt">
+                                <h5>포메인</h5>
+                                <p class="hover_p">
+                                    Main 페이지 구현<br>
+                                    Slick Slide
+                                </p>
+                                <p class="hover_p">기존 포메인 페이지 클론 코딩</p>
+                                <p class="btn_view_wrap">
+                                    <a href="../사이트/24_phomean/index.html" class="btn_view" target="_blank">View</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile">
+                <h2 class="portfolio_tit">PORTFOLIO</h2>
+                <p class="portfolio_subtxt">Mobile Site</p>
+                <ul class="gallery">
+                    <li>
+                        <img src="img/lg헬로비전_mockup.jpg" alt="LG이미지">
+                        <img src="img/lg헬로비전_logo.png" alt="LG로고">
+                        <div class="portfolio_hover">
+                            <div class="hover_txt">
+                                <h5>LG헬로모바일</h5>
+                                <p class="hover_p">
+                                    Main 페이지 구현<br>
+                                    Swiper Slide<br>
+                                    모바일메뉴(햄버거 메뉴)구현
+                                </p>
+                                <p class="hover_p">기존 LG헬로모바일 페이지 클론 코딩</p>
+                                <p class="btn_view_wrap">
+                                    <a href="../사이트/08_lg(mobile)/index.html" class="btn_view" target="_blank">View</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/써브웨이_mockup.jpg" alt="써브웨이이미지">
+                        <img src="img/써브웨이_logo.png" alt="써브웨이로고">
+                        <div class="portfolio_hover">
+                            <div class="hover_txt">
+                                <h5>써브웨이</h5>
+                                <p class="hover_p">
+                                    Main 페이지 구현<br>
+                                    Swiper Slide<br>
+                                    모바일메뉴(햄버거 메뉴)구현
+                                </p>
+                                <p class="hover_p">기존 서브웨이 페이지 클론 코딩</p>
+                                <p class="btn_view_wrap">
+                                    <a href="../사이트/07_subway(mobile)/index.html" class="btn_view" target="_blank">View</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="responsive">
+                <h2 class="portfolio_tit">PORTFOLIO</h2>
+                <p class="portfolio_subtxt">Responsive Site</p>
+                <ul class="gallery">
+                    <li>
+                        <img src="img/엘리트_mockup.jpg" alt="엘리트이미지">
+                        <img src="img/엘리트_logo.png" alt="엘리트로고">
+                        <div class="portfolio_hover">
+                            <div class="hover_txt">
+                                <h5>엘리트</h5>
+                                <p class="hover_p">
+                                    Main 페이지 구현<br>
+                                    Slick Slide<br>
+                                    모바일메뉴(햄버거 메뉴)구현
+                                </p>
+                                <p class="hover_p">기존 엘리트 페이지 클론 코딩</p>
+                                <p class="btn_view_wrap">
+                                    <a href="../사이트/25_elite/index.html" class="btn_view" target="_blank">View</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/라푸마_mockup.jpg" alt="라퓨마이미지">
+                        <img src="img/라푸마_logo.png" alt="라퓨마로고">
+                        <div class="portfolio_hover">
+                            <div class="hover_txt">
+                                <h5>라퓨마</h5>
+                                <p class="hover_p">
+                                    Main 페이지 구현
+                                </p>
+                                <p class="hover_p">기존 라퓨마 페이지 클론 코딩</p>
+                                <p class="btn_view_wrap">
+                                    <a href="../사이트/12_lafuma/index.html" class="btn_view" target="_blank">View</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section contact">
+            <h2 class="contact_tit">CONTACT</h2>
+            <div class="aboutme_box">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>NAME</td>
+                            <td>노아연</td>
+                        </tr>
+                        <tr>
+                            <td>AGE</td>
+                            <td>1992. 09. 18 / 31세</td>
+                        </tr>
+                        <tr>
+                            <td>PHONE NUMBER</td>
+                            <td>010 · 2495 · 1820</td>
+                        </tr>
+                        <tr>
+                            <td>E-MAIL</td>
+                            <td>zn_nov@naver.com</td>
+                        </tr>
+                        <tr>
+                            <td>ADDRESS</td>
+                            <td>서울특별시 중랑구 망우동 상봉로 26길 9, 트라움빌2 1304호</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    책임감을 가지고 무엇이든 열심히 '<span>노력</span>'하고 '<span>소통</span>'하여<br> 
+                    작업 마무리까지 '<span>깔끔</span>'하게 할 준비되어있습니다!
+                </p>
+            </div>
+            <div class="footer">
+                <div class="footer_inner">
+                    <h2 class="footer_tit">로고</h2>
+                    <ul class="ft_menu">
+                        <li><a href="#main">MAIN</a></li>
+                        <li><a href="#aboutme">ABOUT ME</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                    <p>
+                        *포트폴리오는 기존에 있는 사이트를 리뉴얼 또는 카피하여 구현하는 방식으로 제작하였습니다.<br>
+                        개인적인 작업물로 해당기업과는 관련 없습니다. 
+                    </p>
+                    <p class="copy">Copyright ⓒ 2022.Ahyeon.All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
